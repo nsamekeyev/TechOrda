@@ -23,7 +23,7 @@ temp
 5. Прислать ссылку на репозиторий c указанием последнего коммита в URL. Например:
 
 ```
-https://github.com/username/jusan-git/tree/5a1e0d9c4c864e13f0682bec96a9f19786fad711
+https://github.com/nsamekeyev/jusan-git/tree/1e1e0b376bbb1b8cf1fd68f3a3600bf8cee4285a
 ```
 
 ---

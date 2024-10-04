@@ -46,3 +46,8 @@ git checkout authorization
 
 5. Загрузите изменения `git push`
 6. Прислать ссылку на репозиторий c указанием последнего коммита мастера в URL.
+
+### Ветка `new-readme`
+```
+https://github.com/nsamekeyev/jusan-git/blob/2f9c93a94c54ca8dbea12506703703974a5fa2d3/README.md
+```

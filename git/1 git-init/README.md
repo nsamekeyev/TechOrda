@@ -30,10 +30,10 @@ Git также имеет отличную поддержку ветвления
 10. Прислать ссылку на репозиторий c указанием последнего коммита в URL. Например:
 
 ```
-https://github.com/nsamekeyev/jusan-git/blob/54d58a0daaa74222c576ad2131b2ceb89ca54216/README.md
+https://github.com/nsamekeyev/jusan-git/blob/e0ebe506e7218a15ca243688cc3c43e22fbd66bc/README.md
 ```
 
-В данной URL `54d58a0daaa74222c576ad2131b2ceb89ca54216` является идентификатором коммита.
+В данной URL `e0ebe506e7218a15ca243688cc3c43e22fbd66bc` является идентификатором коммита.
 Чтобы узнать последний коммит, введите:
 
 ```bash

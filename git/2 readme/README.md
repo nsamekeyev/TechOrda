@@ -16,7 +16,7 @@ README.md имеет расширение `Markdown`. Это простой и �
 3. Прислать ссылку на репозиторий c указанием последнего коммита в URL. Например:
 
 ```
-https://github.com/nsamekeyev/jusan-git/blob/7c80be490fe7b5c0f7cea871c5d64938a718b962/README.md
+https://github.com/nsamekeyev/jusan-git/blob/7c80be490fe7b5c0f7cea871c5d64938a718b962
 ```
 
 ![readme](./readme.png)

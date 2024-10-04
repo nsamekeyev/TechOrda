@@ -12,3 +12,8 @@
 1. В репозитории `jusan-git` объедините ветку `feature/username` с `master`.
 2. Загрузите изменения `git push`.
 3. Прислать ссылку на репозиторий c указанием последнего коммита мастера в URL.
+
+### Ответы
+```
+https://github.com/nsamekeyev/jusan-git/tree/db7312c5c75aa7cd9fb3f48920f0dc4b8b364b52
+```

@@ -8,4 +8,4 @@
 | 4.   |  branch    |           | feature/username - [https://github.com/nsamekeyev/jusan-git/tree/db7312c5c75aa7cd9fb3f48920f0dc4b8b364b52]; new-readme - [https://github.com/nsamekeyev/jusan-git/blob/2f9c93a94c54ca8dbea12506703703974a5fa2d3] |
 | 5.   |  merge     |           | [https://github.com/nsamekeyev/jusan-git/tree/db7312c5c75aa7cd9fb3f48920f0dc4b8b364b52] |
 | 6.   |  my-pr     |           | [https://github.com/nsamekeyev/jusan-git/pull/1] |
-| 7.   |  fork-pr   |           | https://github.com/jusan-singularity/fork-me/pull/118   |
+| 7.   |  fork-pr   |           | [https://github.com/jusan-singularity/fork-me/pull/118]   |

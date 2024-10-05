@@ -2,7 +2,9 @@
 
 | Урок | Тип               | Название  | Ссылка                     |
 | ---- | ----------------- | --------- | -------------------------- |
-| 1.   |  git-init  | [github.com](./git-init/)  |
+| 1.   |  git-init  | [github.com](```
+https://github.com/nsamekeyev/jusan-git/blob/e0ebe506e7218a15ca243688cc3c43e22fbd66bc
+```)  |
 | 2.   |  readme    | [github.com](./readme/)    |
 | 3.   |  gitignore | [github.com](./gitignore/) |
 | 4.   |  branch    | [github.com](./branch/)    |

@@ -1,0 +1,15 @@
+server {
+    listen 8080;
+    server_name example.com;
+
+    location /secret_word {
+        default_type text/plain;
+        add_header Content-Type text/plain;
+        return 203 "jusan-nginx-ip";
+        
+        allow 192.0.0.1/20;  # Разрешить доступ из диапазона 192.0.0.1/20
+        deny 192.0.0.1;       # Запретить доступ для 192.0.0.1
+        deny all;             # Запретить доступ всем остальным
+    }
+}
+

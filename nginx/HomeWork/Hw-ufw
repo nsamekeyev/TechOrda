@@ -1,0 +1,28 @@
+# Обновление списка пакетов
+sudo yum update
+
+# Установка Nginx
+sudo yum install nginx
+
+# Запуск Nginx
+sudo systemctl start nginx
+
+# Включение Nginx на автозагрузку
+sudo systemctl enable nginx
+
+# Установка UFW
+sudo yum install ufw
+
+# Разрешение доступа на порты 80 и 443
+sudo ufw allow 80
+sudo ufw allow 443
+
+# (Опционально) Заблокировать другие порты, если необходимо
+sudo ufw deny 22  # Только если вы не хотите доступ по SSH (проверьте перед выполнением)
+
+# Включение UFW
+sudo ufw enable
+
+# Проверка статуса UFW
+sudo ufw status verbose
+

@@ -1,0 +1,21 @@
+server {
+    listen 8080;
+    server_name example.com;
+
+    # Блок для обслуживания файла index.html
+    location / {
+        root /usr/share/nginx/html;
+        index index.html;
+    }
+
+     location /api {
+        rewrite ^/api/(.*)$ /$1 break;  # Удаляем /api из URI
+        proxy_pass http://localhost:9090;  # Перенаправляем запросы на localhost:9090
+        proxy_set_header Host $host;  # Передаем заголовок Host
+        proxy_set_header X-Real-IP $remote_addr;  # Передаем реальный IP клиента
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;  # Заголовок с адресами клиентов
+        proxy_set_header X-Forwarded-Proto $scheme;  # Передаем протокол (http или https)
+    }
+
+}
+
